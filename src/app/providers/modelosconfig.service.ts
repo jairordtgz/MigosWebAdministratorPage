@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ModelosconfigService {
 
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/modelosvehiculos/';
+  private URL: string = 'http://localhost:8000/Database/Database/modelosvehiculos/';
   //?format=json
   constructor(private http: HttpClient) {}
 

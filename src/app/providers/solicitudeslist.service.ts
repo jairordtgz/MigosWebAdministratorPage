@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class SolicitudeslistService {
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/formularioregistrocampana/';
+  private URL: string = 'http://localhost:8000/Database/Database/formularioregistrocampana/';
   //?format=json
   constructor(private http: HttpClient) {}
 

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmpresalistService {
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/empresas/';
+  private URL: string = 'http://localhost:8000/Database/Database/empresas/';
   //?format=json
   constructor(private http: HttpClient) {}
 

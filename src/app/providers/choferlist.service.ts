@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ChoferlistService {
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/choferes/';
+  private URL: string = 'http://localhost:8000/Database/Database/choferes/';
   //?format=json
   constructor(private http: HttpClient) {}
 

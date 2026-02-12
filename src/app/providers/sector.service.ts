@@ -8,7 +8,7 @@ import { SectorGet } from '../interfaces/sector-get';
   providedIn: 'root'
 })
 export class SectorService {
-  private apiUrl = 'https://migoadvs.pythonanywhere.com/Database/';
+  private apiUrl = 'http://localhost:8000/Database/';
 
   constructor(private http: HttpClient) {}
 

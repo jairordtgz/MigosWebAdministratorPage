@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class HttpmailService {
-  private baseURL = 'https://migoadvs.pythonanywhere.com/Database/send_email/';
+  private baseURL = 'http://localhost:8000/Database/send_email/';
   constructor(
     private http: HttpClient) { }
 

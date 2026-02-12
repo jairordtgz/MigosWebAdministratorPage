@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CampanialistService {
 
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/campaniaspublicitarias/';
+  private URL: string = 'http://localhost:8000/Database/Database/campaniaspublicitarias/';
   constructor(private http: HttpClient) {}
 
   getResponse() {

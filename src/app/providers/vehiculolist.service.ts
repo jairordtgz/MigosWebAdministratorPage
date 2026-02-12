@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class VehiculolistService {
-  private URL: string = 'https://migoadvs.pythonanywhere.com/Database/Database/vehiculos/';
+  private URL: string = 'http://localhost:8000/Database/Database/vehiculos/';
   //?format=json
   constructor(private http: HttpClient) {}
 
