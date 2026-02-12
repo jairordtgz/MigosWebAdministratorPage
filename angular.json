@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "WebAdministrator:build:production"
+              "buildTarget": "WebAdministrator:build:production"
             },
             "development": {
-              "browserTarget": "WebAdministrator:build:development"
+              "buildTarget": "WebAdministrator:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "WebAdministrator:build"
+            "buildTarget": "WebAdministrator:build"
           }
         },
         "test": {
